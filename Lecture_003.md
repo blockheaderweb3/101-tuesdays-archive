@@ -110,3 +110,32 @@ In order not to overwhelm us with too much information this evening, we'd stop h
 Guys, please feel free to draw my attention to areas that need further clarification.
 I'm more than willing to pause whatsoever I'm doing to go over it.
 I'm here anytime, to take questions regarding what we've covered so far.
+
+
+# QnA
+
+#### Q:  The "memory" keyword inside the parameter, what is the function of it?
+
+#### A: 
+So there 3 storages in solidity
+  1. Storage
+  2. Memory
+  3. Stack
+  
+- State variables are always in storage
+- Function arguments are always in memory
+- Local variables always reference storage
+
+So by using `memory` keyword, we are temporarily storing our string, so this string variable does not persist on the blockchain. Its lifecycle terminates as soon the function call ends. `memory` keyword is usually used for storing strings and arrays within a function.
+
+
+#### Q: If I decide to name the argument passed inside the parameter as 'gmData' same as the state         variable name won't that shadow the variable declared outside the function?
+
+#### A:
+It's best practice not to use the exact state variable name as parameter that's why I didn't use `gmData` as it would mask the state variable. If you want to use the same name, you can differentiate the parameter from the state variable by prepending an underscore `_gmData`. That's why i used `data` as parameter. We could use it this way alternatively: 
+
+```
+function setGM(string memory _gmData) public {
+  gmData = _gmData;
+}
+```
