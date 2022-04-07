@@ -5,3 +5,4 @@
 - [003 - Setting up a Blockchain Development Environment (Continued)](Lecture_003.md)
 - [004 - Setting up a Blockchain Development Environment (Continued)](Lecture_004.md)
 - [005 - 20 Most Common Terms in Blockchain and Their Meaning](Lecture_005.md)
+- [006 - POAPs](Lecture_006.md)
