@@ -8,3 +8,4 @@
 - [006 - POAPs](Lecture_006.md)
 - [007 - The Block header](Lecture_007.md)
 - [008 - The Importance of Design in Web3](Lecture_008.md)
+- [009 - Decentralized Storage](Lecture_009.md)
