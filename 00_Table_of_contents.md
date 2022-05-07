@@ -10,3 +10,4 @@
 - [008 - The Importance of Design in Web3](Lecture_008.md)
 - [009 - Decentralized Storage](Lecture_009.md)
 - [010 - The Relationship between NFTs and Smart Contract](Lecture_010.md)
+- [011 - Decentralized exchanges (DEXs)](Lecture_011.md)
