@@ -11,3 +11,4 @@
 - [009 - Decentralized Storage](Lecture_009.md)
 - [010 - The Relationship between NFTs and Smart Contract](Lecture_010.md)
 - [011 - Decentralized exchanges (DEXs)](Lecture_011.md)
+- [012 - Crafting better User Experiences in blockchain](Lecture_012.md)
